@@ -1,0 +1,11 @@
+import javax.swing.JFrame;
+
+public class LabelTest{
+	public static void main (String[] args){
+		
+		LabelFrame labelframe = new LabelFrame();
+		LabelFrame.setDafaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		LabelFrame.setSize (260,180);
+		LabelFrame.setVisible(true);
+	}
+}
